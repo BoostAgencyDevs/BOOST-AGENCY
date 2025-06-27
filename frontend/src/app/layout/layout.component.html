@@ -4,17 +4,10 @@
   <header class="fixed top-0 left-0 right-0 z-50 bg-dark-950/95 backdrop-blur-md border-b border-dark-800 shadow-sm animate-fade-in-down">
     <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16 lg:h-20">
-        <!-- Logo con diseño moderno -->
+        <!-- Logo principal BOOST AGENCY -->
         <div class="flex items-center">
           <a routerLink="/inicio" class="group flex items-center space-x-3">
-            <!-- Icono del logo -->
-            <div class="w-10 h-10 bg-gradient-to-br from-accent to-accent-light rounded-xl flex items-center justify-center shadow-glow group-hover:scale-105 transition-transform duration-300">
-              <span class="text-light-50 font-bold text-lg">B</span>
-            </div>
-            <!-- Texto del logo -->
-            <span class="text-2xl font-bold gradient-text group-hover:from-accent group-hover:to-accent-light transition-all duration-300">
-              BOOST AGENCY
-            </span>
+            <img src="/assets/images/Logo_Principal.png" alt="BOOST AGENCY Logo" class="w-[120px] h-auto object-contain max-w-full" />
           </a>
         </div>
         
@@ -64,8 +57,8 @@
 
         <!-- Botón CTA principal del header -->
         <div class="hidden lg:block">
-          <a routerLink="/el-futuro-es-ahora" 
-             class="group inline-flex items-center px-6 py-3 bg-gradient-to-r from-accent to-accent-light text-light-50 font-semibold rounded-xl shadow-glow hover:shadow-glow-lg transform hover:-translate-y-0.5 transition-all duration-300 cta-button">
+          <a routerLink="/el-futuro-es-ahora"
+             class="inline-flex items-center px-5 py-2 border border-[#FF6B6B] text-[#FF6B6B] font-semibold rounded-xl bg-transparent hover:bg-[#FF6B6B]/20 hover:text-white transition-all duration-300 ease-in-out cta-button text-base shadow-none">
             El Futuro es Ahora
             <svg class="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
@@ -135,9 +128,9 @@
             Contacto
           </a>
           <!-- CTA móvil -->
-          <div class="pt-4 border-t border-dark-700">
-            <a routerLink="/el-futuro-es-ahora" 
-               class="block w-full text-center px-4 py-3 bg-gradient-to-r from-accent to-accent-light text-light-50 font-semibold rounded-xl shadow-glow cta-button"
+          <div class="pt-4 border-t border-dark-700 lg:hidden">
+            <a routerLink="/el-futuro-es-ahora"
+               class="block w-full text-center px-4 py-3 border border-[#FF6B6B] text-[#FF6B6B] font-semibold rounded-xl bg-transparent hover:bg-[#FF6B6B]/20 hover:text-white transition-all duration-300 ease-in-out cta-button text-base shadow-none"
                (click)="closeMobileMenu()">
               El Futuro es Ahora
             </a>
@@ -168,10 +161,7 @@
         <div class="lg:col-span-2">
           <!-- Logo del footer -->
           <div class="flex items-center space-x-3 mb-6">
-            <div class="w-12 h-12 bg-gradient-to-br from-accent to-accent-light rounded-xl flex items-center justify-center shadow-glow">
-              <span class="text-light-50 font-bold text-xl">B</span>
-            </div>
-            <span class="text-2xl font-bold text-light-50">BOOST AGENCY</span>
+            <img src="/frontend/src/assets/images/Logo_Principal.png" alt="BOOST AGENCY">
           </div>
           
           <p class="text-light-300 text-lg leading-relaxed mb-6 max-w-md">
@@ -250,7 +240,7 @@
               </div>
               <div>
                 <p class="text-light-300">Teléfono:</p>
-                <p class="text-light-50 font-medium">+1 (555) 123-4567</p>
+                <p class="text-light-50 font-medium">+57 0000000000</p>
               </div>
             </div>
           </div>
@@ -261,7 +251,7 @@
       <div class="border-t border-dark-700 mt-12 pt-8">
         <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p class="text-light-400 text-center md:text-left">
-            &copy; 2024 BOOST AGENCY. Todos los derechos reservados.
+            &copy; 2025 BOOST AGENCY. Todos los derechos reservados.
           </p>
           <div class="flex space-x-6 text-sm">
             <a href="#" class="text-light-400 hover:text-accent transition-colors footer-link">Política de Privacidad</a>
